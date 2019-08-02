@@ -2,7 +2,7 @@ package employee;
 
 import java.time.LocalDate;
 
-public class EmployeeData {
+class EmployeeData {
 	private int no; 				//no
 	private String empld; 			// 従業員ID
 	private String empName; 		//氏名
