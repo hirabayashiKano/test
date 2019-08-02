@@ -22,7 +22,7 @@ class View {
 
 	//終了表示
 	void end(){
-
+		System.out.println("<終了しました>");
 	}
 
 	//結果表示
@@ -32,6 +32,8 @@ class View {
 
 	//エラー表示
 	void printError(String errorWord){
+
+		System.out.println("入力が無効です。もう一度入力してください。");
 
 	}
 
